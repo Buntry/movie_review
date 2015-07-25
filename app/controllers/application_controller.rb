@@ -16,10 +16,12 @@ class ApplicationController < Sinatra::Base
   configure do
     set :public_folder, 'public'
     set :views, 'app/views'
+    
+    Tmdb::Api.key("9700bb0192b8a83fb4c9e8890ee34f15")
   end
   
   get "/" do
-    "Hello World"
+    erb :search
   end
   
 end

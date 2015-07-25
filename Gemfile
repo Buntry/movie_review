@@ -9,6 +9,7 @@ gem 'sinatra-redirect-with-flash'
 gem "rake"
 gem 'require_all'
 gem 'bcrypt'
+gem 'themoviedb'
 
 group :development do
   gem "pry"
