@@ -1,5 +1,5 @@
 require_relative "application_controller"
-
+# Search Controller
 class ApplicationController < Sinatra::Base
 	
 	post '/search' do
