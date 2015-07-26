@@ -1,3 +1,4 @@
-require_relative "./app/controllers/application_controller.rb"
+require "require_all" 
+require_all "./app/controllers/*.rb"
 
 run ApplicationController

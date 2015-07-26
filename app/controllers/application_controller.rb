@@ -18,6 +18,7 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
     
     Tmdb::Api.key("9700bb0192b8a83fb4c9e8890ee34f15")
+	CONFIG = Tmdb::Configuration.new
   end
   
   get "/" do

@@ -1,0 +1,8 @@
+<div class="search_movies">
+	<% @movies.each do |movie| %>
+		<div class="search_movie_item">
+			<p> Movie Title: <%= "#{movie.title}" %></p>
+			<img src="<%= CONFIG.base_url.to_s + CONFIG.poster_sizes[3].to_s + movie.poster_path.to_s %>">
+		</div>
+	<% end %>
+</div>
