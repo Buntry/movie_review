@@ -1,0 +1,201 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+/* http://paletton.com/#uid=13-0u0kanbB7tnx9wieh29Xmv8a */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+	color: white;
+	background-color: #2a333c;
+}
+#search {
+	color: darkslategray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', serif;
+	
+	margin: 0;
+	color: #e36b23;
+	text-shadow: -2px 2px 0 #612c0c;
+}
+
+#horz-nav {
+	color: #e36b23;
+    clear: both;
+}
+
+p {
+	color: #ece9d7;
+	margin: 0;
+	
+	font-size: 18px;
+}
+
+a, button{
+	font-family: 'Oswald', serif;
+	font-size: 32px;
+}
+
+a:focus, a:visited {
+	color: #18bc9c;
+	text-shadow: -3px 2px 0 #0A4237;
+	text-decoration: none;
+}
+
+ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.active {
+	color: #e36b23;
+	text-shadow: -2px 2px 0 #612c0c;
+	text-decoration: none;
+}
+
+#horz-nav ul {
+	display: inline-block;
+}
+
+#links {
+	margin-left: 10px;
+	float: left;
+}
+
+#view {
+	float: right;
+}
+
+.search_movie_item_catalog {
+	padding: 11px;
+	background-color: rgb(68, 82, 94);
+	
+	display: inline-block;
+	margin-bottom: 2px;
+}
+
+.movie_index_img {
+	height: 231px;
+	width: 154px;
+}
+
+#search_head * {
+	display: inline-block;
+}
+
+#search_head {
+	margin-left: 10px;
+	
+	margin-bottom: 20px;
+	position: relative;
+    float: left;
+}
+
+.search_bar {
+	color: darkslategray;
+	
+	width: 250px;
+	font-size: 24px;
+	
+	position: absolute;
+	bottom: 0.5px;
+	
+	margin-left: 15px;
+}
+
+#search_movies_catalog {
+	clear: both;
+}
+
+.search_movie_item_catalog:hover {
+	background-color: rgb(88, 102, 114);
+}
+
+button {
+	color: #18bc9c;
+	text-shadow: -3px 2px 0 #0A4237;
+	
+	background:none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+#search_movies_list {
+	clear: both;
+	display: none;
+}
+
+p a, p a:visited, p a:active, p a:focus{
+	color: #e36b23;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+p a:hover {
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.search_movie_item_list {
+	padding: 11px;
+	background-color: rgb(68, 82, 94);
+	
+	height: 253px; 
+	
+	clear: both;
+}
+
+.list_image {
+	float: left;
+}
+
+.search_movie_item_list:nth-child(odd) {
+	background-color: rgb(48, 62, 74);
+}
+
+.list_info {
+	margin-left: 186px;
+	margin-top: 5px;
+}
+
+a:hover, a:active, button:hover, button.active {
+	color: #e36b23;
+	text-shadow: -2px 2px 0 #612c0c;
+	text-decoration: none;
+}
+#session_info {
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.user_link, .user_link:hover, .user_link:active, .user_link:focus, .user_link:visited, #signup_link, #signup_link:hover, #signup_link:active, #login_link, #login_link:hover, #login_link, #logout_link, #logout_link:hover, #logout_link:active, #user_link, #user_link:hover, #user_link:active {
+  	color: #e36b23;
+	text-shadow: -2px 2px 0 #612c0c;
+	text-decoration: none;  
+}
+
+#signup_form {
+    margin: 10px;
+}
+
+#login_form {
+    margin: 10px;
+}
+
+input {
+    color: darkslategray;
+}
+
+#flash-notice {
+    margin: 15px;
+}
+
+.wrapper {
+    clear: both;
+}

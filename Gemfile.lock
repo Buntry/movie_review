@@ -15,7 +15,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.2)
-    bcrypt (3.1.10)
+    bcrypt-ruby (3.0.1)
     bond (0.5.1)
     builder (3.2.2)
     coderay (1.1.0)
@@ -72,13 +72,15 @@ GEM
       sinatra (>= 1.2.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    warden (1.2.3)
+      rack (>= 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   activerecord
-  bcrypt
+  bcrypt-ruby
   pry
   rake
   require_all
@@ -90,3 +92,4 @@ DEPENDENCIES
   sqlite3
   themoviedb
   tux
+  warden

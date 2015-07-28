@@ -8,7 +8,8 @@ gem 'sinatra-flash'
 gem 'sinatra-redirect-with-flash'
 gem "rake"
 gem 'require_all'
-gem 'bcrypt'
+gem 'warden'
+gem 'bcrypt-ruby'
 gem 'themoviedb'
 
 group :development do
